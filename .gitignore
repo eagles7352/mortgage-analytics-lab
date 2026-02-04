@@ -28,3 +28,4 @@ db/*
 *.duckdb
 *.duckdb.wal
 *.duckdb.tmp
+scripts/*BACKUP*.py
