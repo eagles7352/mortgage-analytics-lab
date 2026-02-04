@@ -1,0 +1,9 @@
+pandas
+numpy
+pyarrow
+polars
+duckdb
+jupyter
+matplotlib
+scikit-learn
+python-dotenv

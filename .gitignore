@@ -23,3 +23,8 @@ db/*
 
 # Jupyter
 .ipynb_checkpoints/
+
+# DuckDB files (database + sidecar files)
+*.duckdb
+*.duckdb.wal
+*.duckdb.tmp
