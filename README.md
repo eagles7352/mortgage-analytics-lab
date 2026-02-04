@@ -1,29 +1,32 @@
 # Mortgage Analytics Lab (Python + SQL + Parquet)
 
-A portfolio-style analytics project built to demonstrate end-to-end skills used in quantitative analytics, pricing, and portfolio monitoring roles — especially in mortgage / insurance / structured products environments.
+Portfolio-style analytics repo built to showcase an end-to-end workflow you’d use in pricing, portfolio analytics, and performance monitoring—especially in mortgage / insurance / structured products contexts.
 
-This repo is intentionally structured like a real analytics “framework”:
-- **Python for modeling + automation**
-- **SQL for analysis and reporting**
-- **Parquet for efficient columnar storage**
-- **DuckDB for local analytics database workflows**
+This project is intentionally structured like a real analytics “starter framework”:
+- **Python** for data engineering + modeling automation  
+- **SQL** for analysis, reporting, and QA checks  
+- **Parquet** for efficient columnar storage  
+- **DuckDB** for fast local analytics + reproducible queries  
 
 ---
 
 ## What this project demonstrates
 
 ### Recruiter / Hiring Manager highlights
-- Loan-level dataset workflows (generate → validate → store → query)
-- Reproducible analytics pipeline structure (scripts + modular `src/`)
-- SQL-based summarization and monitoring outputs
-- Clean dependency management + virtual environment setup
-- Version control hygiene (ignoring local DB/data artifacts)
+- Loan-level dataset pipeline: generate → validate → store → query
+- Reproducible, reviewable structure (scripts + modular `src/`)
+- SQL-based summarization suitable for monitoring / dashboards
+- Clean dependency management (`requirements.txt` + local `.venv`)
+- Strong repo hygiene (data + local DB artifacts ignored, folders preserved)
 
 ### Technical highlights
-- Python 3.13 project with `.venv`
-- Libraries: Polars/Pandas, DuckDB, PyArrow/Parquet
-- Local database creation and “sanity check” table inserts
-- Code organized for easy expansion into cashflow modeling, scenarios, and stress testing
+- Python 3.13 project using a local virtual environment (`.venv`)
+- Libraries: Pandas / Polars, DuckDB, PyArrow (Parquet)
+- DuckDB table creation + “sanity check” inserts/reads (quick verification that the stack works)
+- Organized to expand into:
+  - cashflow modeling (amortization, prepay/default assumptions)
+  - scenario analysis + stress testing
+  - portfolio rollups and KPI reporting
 
 ---
 
